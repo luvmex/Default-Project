@@ -1,0 +1,13 @@
+doctype html
+
+html(lang="en")
+	head
+		include import/_meta.pug
+		title Default
+		include import/_plugin.pug
+		script(src='./js/main.js')
+		link(rel="stylesheet", href="./css/index.css")
+	body
+		#index.page.page-intro(data-animsition-in-class="fade-in",data-animsition-out-class='fade-out',data-animsition-in-duration='1000')
+			main
+		include include/_footer.pug

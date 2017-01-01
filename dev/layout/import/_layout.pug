@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		include _meta.pug
+		link(rel="stylesheet", href="./lib/css/resize.css")
+		link(rel="stylesheet", href="./lib/css/fa/css/fa-min.css")
+		link(rel="stylesheet", href="./css/index.css")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js")
+		block meta
+			title Celyn's Portfolio.
+			
+	body
+		include _lorem-mixin.pug
+
+		include ../include/_nav.pug
+		include ../include/_menu.pug
+
+		block content
+
+		block footer
+			include ../include/_footer.pug
+
+		block script

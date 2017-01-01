@@ -1,0 +1,37 @@
+/*font family custom setting*/
+/*
+@font-face {
+	font-family: 'core-c';
+	src: url('../font/core15.eot');
+	src: local('☺'), url('../font/core15.woff') format('woff'), url('../font/core15.ttf') format('truetype');
+	font-weight: 100;
+}
+*/
+
+@font-face {
+  font-family: "icon";
+  src: url('../font/icon.eot');
+  src: url('../font/icon.eot?#iefix') format('eot'),
+    url('../font/icon.woff2') format('woff2'),
+    url('../font/icon.woff') format('woff'),
+    url('../font/icon.ttf') format('truetype'),
+    url('../font/icon.svg#symbols') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.s:before {
+  display: inline-block;
+  font-family: "icon";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.s-codepen:before { content: "\EA01" }
+.s-dribbble:before { content: "\EA02" }
+.s-email:before { content: "\EA03" }
+.s-facebook:before { content: "\EA04" }
