@@ -14,7 +14,6 @@
     "css-mqpacker": "^4.0.1",
     "cssnano": "^3.4.0",
     "del": "^2.2.0",
-    "gulp": "^3.9.0",
     "gulp-cache": "^0.4.1",
     "gulp-concat": "^2.6.0",
     "gulp-imagemin": "^2.4.0",
@@ -30,5 +29,8 @@
     "jshint": "^2.9.1",
     "lost": "^6.6.3",
     "rupture": "^0.6.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
   }
 }
