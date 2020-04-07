@@ -1,7 +1,7 @@
 
 .DS_Store
-/build/*
-/node_modules/*
-/firebase.json
-/database.rules.json
-/.firebaserc
+build/*
+node_modules/*
+firebase.json
+database.rules.json
+.firebaserc
